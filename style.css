@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*                   font-family: 'Jost', sans-serif;                        */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+/*                   font-family: 'DM Serif Display', serif;                 */
+*{
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* ======================headeerr  */
+header{
+    margin-bottom: 175px;
+}
+header nav{
+    padding: 30px 0px;
+    align-items: center;
+    background-color: white;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+header nav ul li a{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #292F36;
+    margin: 0px 20px;
+}
+header nav ul li a:hover{
+    font-size: 20px;
+    color: #CDA274;
+}
+header .header_main{
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+header .header_main h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 19px;
+}
+header .header_main p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 35px;
+}
+header .header_main button{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    padding: 14px 20px 14px 31px;
+}
+header .header_main button img{
+    margin-left: 20px;
+}
+
+/* ======================headeerr  */
+
+
+
+/* ========================== services */
+.services{
+    margin-bottom: 170px;
+}
+.services .box{
+    padding: 0 42px;
+    text-align: center;
+}
+.services .box:nth-child(2){
+    padding: 0 70px;
+}
+.services .box:nth-child(2) p{
+    margin-bottom: 35px;
+}
+.services .box:nth-child(3){
+    padding: 0 70px;
+}
+.services .box:nth-child(3) p{
+   margin-bottom: 35px;
+}
+.services .box h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 17px;
+}
+.services .box p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 68px;
+}
+.services .box a{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #4D5053;
+}
+.services .box a img{
+    margin-left: 6px;
+}
+/* ========================== services */
+
+
+
+/* =====================================challenging */
+.challenging{
+    margin-bottom: 140px;
+}
+
+.challenging h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 42px;
+}
+.challenging p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 30px;
+}
+.challenging a{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    display: flex;
+    height: 100px;
+    margin-top: 30px;
+}
+.challenging a p{
+    margin-top: 10px;
+}
+.challenging a img{
+    margin-right: 20px;
+}
+.challenging button{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 8px;
+    padding: 14px 20px 14px 31px;
+    margin-top: 50px;
+}
+.challenging button img{
+    margin-left: 20px;
+}
+
+
+/* =====================================challenging */
+
+
+/* ==================comments */
+
+.comments .malochBG {
+    padding: 100px 50px 120px;
+    background: #F4F0EC;
+    border-radius: 70px;
+}
+.comments .malochBG h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.comments .malochBG .box{
+    padding: 50px 45px 45px 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 32.433333%;
+}
+.comments .malochBG .box img{
+    width: 77px;
+    height: 77px;
+}
+.comments .malochBG .box h2{
+    margin-left: 20px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.comments .malochBG .box h2 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.comments .malochBG .box p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 25px;
+}
+/* ==================comments */
+
+/* ===============img line  */
+
+.imgline{
+    height: 103px;
+    margin-top: 140px;
+    margin-bottom: 113px;
+}
+
+/* ===============img line  */
+
+/* ======================================projects */
+.projects{
+    margin-bottom: 80px;
+}
+
+.projects h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+.projects p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 70px;
+}
+.projects h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-top: 25px;
+}
+.projects h2 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.projects .justify-content-between img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.projects .box{
+    width: 100%;
+}
+.projects a{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+/* ======================================projects */
+
+/* ====================================statistcs  */
+
+.statistcs {
+    background: #F4F0EC;
+    padding: 120px 0;
+    padding-bottom: 80px;
+    margin-bottom: 145px;
+}
+.statistcs h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+    padding-right: 100px;
+    border-right: 1px solid #CDA274;
+    margin-right: 85px;
+}
+.statistcs h1:last-child{
+    border: 0;
+    margin-right: 0;
+}
+.statistcs h1 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+/* ====================================statistcs  */
+
+/* ================================================blogs  */
+
+.blogs h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+.blogs p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 70px;
+}
+.blogs .box{
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+    padding: 21px 21px 41px;
+}
+.blogs .box img {
+    width: 100%;
+}
+.blogs .box h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: #292F36;
+    margin-top: 14.5px;
+    margin-bottom: 20px;
+}
+.blogs .box h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+
+}
+.blogs .box .ar{
+    width: 52px;
+    height: 52px;
+}
+.blogs .mrbot{
+    margin-bottom: 40px;
+}
+.blogs{
+    margin-bottom: 100px;
+}
+/* ================================================blogs  */
+
+/* =========================wanna ?  */
+.wanna{
+    margin-bottom: 130px;
+}
+
+.wanna .box{
+    background: #292F36;
+    border-radius: 70px;
+    padding: 100px 0px;
+}
+.wanna .box h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.wanna .box h2{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.wanna .box button{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    padding: 14px 20px 14px 31px;
+    background: #CDA274;
+    border: 2px solid #CDA274;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wanna .box button img{
+    margin-left: 27px;
+    width: 25px;
+    height: 36px;
+}
+
+/* =========================wanna ?  */
+
+
+/* ================================================ fooooooter */
+
+footer .first p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+footer .first a{
+    margin-right: 40px;
+}
+footer h4{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 21px;
+}
+footer .second a{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+footer .last p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+footer .last a{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+footer .row{
+        margin-bottom: 110px;
+}
+footer .container-fluid{
+    border-top:1px solid #E5E5E5;
+    padding: 35px 0px;
+}
+footer .container-fluid h5{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+footer .container-fluid h5 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #CDA274;
+    margin: 0 10px;
+}
